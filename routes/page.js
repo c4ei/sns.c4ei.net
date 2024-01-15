@@ -61,7 +61,7 @@ router.get('/', async (req, res, next) => {
       order: [["createdAt", "DESC"]], // 게시글의 순서를 최신순으로 정렬
     });
     res.render("main", {
-      title: "sns",
+      title: "sns.c4ei.net",
       twits: posts, // 조회 후 views/main.html 페이지를 렌더링할 때 전체 게시글을 twits 변수로 저장 
     });
   } catch (err) {
